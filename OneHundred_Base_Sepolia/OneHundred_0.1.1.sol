@@ -18,7 +18,8 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 /**
- * @title OneHundred
+ * @title OneHundred_0.1.1
+ * @dev OneHundred built by Domum Digital on Base
  * @dev Number guessing game using Chainlink VRF 2.5 and Automation with optimized storage
  */
 contract OneHundred is VRFConsumerBaseV2Plus, AutomationCompatibleInterface, ReentrancyGuard {
